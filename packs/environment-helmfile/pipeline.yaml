@@ -37,8 +37,6 @@ pipelines:
           - step
           - create
           - helmfile
-          - --values
-          - ../jx-requirements.values.yaml.gotmpl
           command: jx
           dir: /workspace/source
           name: generate-helmfile
